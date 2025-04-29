@@ -1,0 +1,23 @@
+/* Mobile first (styles de base) */
+
+/* Petits écrans (téléphones) */
+@media (max-width: 480px) {
+  nav ul {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
+}
+
+/* Tablettes en portrait */
+@media (min-width: 481px) and (max-width: 768px) {
+  /* Styles pour les tablettes */
+}
+
+/* Tablettes en paysage et petits laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+
+/* Ordinateurs et écrans larges */
+@media (min-width: 1025px) {
+}
