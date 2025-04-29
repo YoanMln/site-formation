@@ -40,7 +40,7 @@ nav ul {
 }
 
 nav ul li a {
-  color: #000;
+  color: #222224;
 }
 
 /*-----Title-----*/
@@ -51,7 +51,7 @@ nav ul li a {
 
   margin-top: 3rem;
 }
-
+/*-----Feed-----*/
 .feed-container {
   display: flex;
   justify-content: center;
@@ -59,10 +59,38 @@ nav ul li a {
   margin-top: 5rem;
 }
 
-.elementContainer {
-  border: 1px solid black;
+.design-container {
+  background-color: #d63031;
   border-radius: 10px;
+  border: 6px solid #222224;
+  height: 500px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.elementContainer {
+  border: 4px solid #222224;
+  border-radius: 10px;
+  background-color: #5db9ff;
   width: 300px;
   height: 300px;
   text-align: center;
+  padding-top: 5rem;
+}
+
+.container-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.nextBtn {
+  padding: 10px;
+  border: 2px solid #222224;
+  border-radius: 0 0 10px 10px;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 700;
 }
