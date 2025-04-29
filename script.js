@@ -8,7 +8,7 @@ function loadNextPoke() {
     .then((response) => response.json())
     .then((data) => {
       const container = document.querySelector(`.elementContainer`);
-
+      container.innerHTML = "";
       const nameElement = document.createElement(`h1`);
       nameElement.textContent = `Nom : ${data.name}`;
 
