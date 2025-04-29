@@ -59,9 +59,9 @@ nav ul li a {
 }
 
 .design-container {
-  background-color: #d63031;
+  background-color: #c96868;
   border-radius: 10px;
-  border: 6px solid #222224;
+  border: 6px solid #393e46;
   height: 510px;
   width: 370px;
   display: flex;
@@ -70,9 +70,9 @@ nav ul li a {
 }
 
 .elementContainer {
-  border: 4px solid #222224;
+  border: 4px solid #393e46;
   border-radius: 10px;
-  background-color: #5db9ff;
+  background-color: #bbe9ff;
   width: 300px;
   height: 330px;
   text-align: center;
@@ -90,11 +90,17 @@ nav ul li a {
 }
 
 .nextBtn {
-  padding: 10px;
-  border: 2px solid #222224;
-  border-radius: 0 0 10px 10px;
-  background-color: #fff;
+  padding: 15px;
+  border: 3px solid #393e46;
+  border-radius: 0 0 25px 25px;
+  background-color: #f1eedc;
   cursor: pointer;
   font-size: 25px;
   font-weight: 700;
+  transition: 0.2s;
+}
+
+.nextBtn:hover {
+  background-color: #c96868;
+  color: #f1eedc;
 }
