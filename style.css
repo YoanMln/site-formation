@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #dfe6e9;
+  background-color: #ede8dc;
   font-family: var(--Roboto);
 }
 
@@ -33,7 +33,7 @@ nav ul {
   gap: 4rem;
   margin-top: 2rem;
   border-color: #b2bec3;
-  background-color: #b2bec3;
+  background-color: #d6c7ae;
   border-radius: 10px;
   height: 4rem;
   width: 50%;
