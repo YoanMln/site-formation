@@ -11,8 +11,14 @@
   <body>
     <div class="main-container">
       <header>
+        <!------------------NavBar-------------------->
         <nav>
-          <ul>
+          <!------------------Dropdown menu------------------>
+          <div class="container-drop-down-btn">
+            <button id="dropDownMenuButton">Menu</button>
+          </div>
+          <!------------------Menu ul------------------>
+          <ul id="dropDownMenu" class="dropDown-menu">
             <li><a href="">Accueil</a></li>
             <li><a href="./gallery.html">Gallery</a></li>
             <li><a href="./jeux.html">Jeux</a></li>
@@ -24,6 +30,7 @@
       </header>
       <main>
         <article>
+          <!------------------Feed Container------------------>
           <div class="feed-container">
             <div class="design-container">
               <div class="round1"></div>
@@ -34,6 +41,23 @@
             <button id="nextBtn" class="nextBtn" type="button">
               Next Poké
             </button>
+          </div>
+          <!-----------------Metéo------------------>
+          <div class="content-weather">
+            <div class="container-weather">
+              <h3>Météo</h3>
+              <div>
+                <input
+                  type="text"
+                  id="location"
+                  placeholder="Entrez votre ville"
+                />
+                <button id="getWeather" type="button" onclick="getWeather()">
+                  Rechercher
+                </button>
+              </div>
+              <div id="weather"></div>
+            </div>
           </div>
         </article>
       </main>

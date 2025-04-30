@@ -18,29 +18,52 @@ body {
   flex-direction: column;
 }
 
-/*-----Nav-bar-----*/
+/*-----DropDownMenu-----*/
 
-nav {
+#dropDownMenuButton {
+  background-color: #f1eedc;
+  padding: 10px 35px;
+  margin-top: 2rem;
+  border: 4px solid black;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#dropDownMenuButton:hover {
+  background-color: #c96868;
+  color: #bbe9ff;
+}
+
+.dropDown-menu {
+  display: none;
+}
+
+.dropDown-menu.show {
+  display: block;
+}
+
+.container-drop-down-btn {
   display: flex;
-
   justify-content: center;
 }
 
+/*-----Nav-bar-----*/
+
 nav ul {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 4rem;
-  margin-top: 2rem;
+  justify-content: center;
   border-color: #b2bec3;
   background-color: #d6c7ae;
   border-radius: 10px;
   height: 4rem;
-  width: 50%;
+  width: 10%;
 }
 
 nav ul li a {
   color: #222224;
+  text-align: center;
 }
 
 /*-----Title-----*/
@@ -104,4 +127,54 @@ nav ul li a {
   background-color: #c96868;
   color: #f1eedc;
   cursor: pointer;
+}
+
+/*-----Météo-----*/
+
+.content-weather {
+  display: flex;
+  justify-content: center;
+}
+.container-weather {
+  background-color: #d6c7ae;
+  backdrop-filter: blur(5px);
+  border-radius: 16px;
+  padding: 2rem;
+  margin-left: 1.3rem;
+  margin-top: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+}
+
+.container-weather h3 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+input#location {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+button#getWeather {
+  background-color: #ede8dc;
+  color: #000;
+  font-weight: 500;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#weather {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  color: #222;
 }
