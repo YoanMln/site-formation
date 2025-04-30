@@ -103,4 +103,5 @@ nav ul li a {
 .nextBtn:hover {
   background-color: #c96868;
   color: #f1eedc;
+  cursor: pointer;
 }
